@@ -1,0 +1,42 @@
+<main>
+    <div id="chat_list" class="row teal lighten-5">
+        <div id="chat_area" class="col s12">
+            <!-- Поле сообщений -->
+        </div>
+        <div id="loader" class="col s12 center valign-wrapper">
+            <div class="preloader-wrapper small active valign center-block">
+                <div class="spinner-layer spinner-green-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="input_row" class="row teal lighten-4">
+        <form id="chat_form" class="col s12">
+            <div class="row">
+                <div class="col s1">
+                    <pre></pre>
+                    <!-- Отступ -->
+                </div>
+                <div id="textarea_field" class="input-field col s9">
+                    <i class="material-icons prefix">&#xE254;</i>
+                    <textarea id="textarea" class="materialize-textarea"></textarea>
+                </div>
+                <div id="button_container" class="col s2 center-align">
+                    <!-- Кнопка -->
+                    <a id="send_button" class="btn-floating btn waves-effect waves-light teal lighten-1">
+                        <i class="material-icons">&#xE163;</i>
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
